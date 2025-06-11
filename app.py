@@ -28,7 +28,7 @@ bgcolor('black')
 speed(0)
 h = 0
 
-for i in range(116):         # صرف 36 بار loop
+for i in range(116):         # صرف 116 بار loop
     c = colorsys.hsv_to_rgb(h, 1, 1)  # رنگ بنائیں
     color(c)
     h += 0.025              # ہر بار رنگ تبدیل ہو
